@@ -15,6 +15,8 @@ public class BootHelloApplication {
 
 		
 		 System.out.println("Let's inspect the beans provided by Spring Boot:");
+		 
+		 System.out.println("Added one more ...\n \n");
 
 	        String[] beanNames = ctx.getBeanDefinitionNames();
 	        Arrays.sort(beanNames);
